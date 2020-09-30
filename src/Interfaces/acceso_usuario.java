@@ -10,16 +10,12 @@ public class acceso_usuario extends javax.swing.JFrame {
     
     public void acces(){
         Conexion c=new Conexion();
-        Connection conexion =c.obtener_conexion();
+        Connection conexion =c.Conexion();
         int contador=1;
         String usuario=txtUsuario.getText();
-        String contra= String.valueOf(txtContra.getPassword());
+        //String contra= String.valueOf(txtContra.get
         
-       
-        
-        
-        
-        
+        System.out.println("");
     }
     
     
